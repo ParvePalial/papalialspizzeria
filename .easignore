@@ -1,0 +1,34 @@
+# Node modules (reinstall during build)
+node_modules
+
+# Local build artifacts
+android/build
+ios/build
+.expo
+.expo-shared
+.expo-local
+
+# Git version control
+.git
+.gitignore
+
+# Environment files (optional, handled in EAS)
+.env
+*.env
+
+# IDE / editor stuff
+.vscode
+*.sublime-project
+*.sublime-workspace
+*.idea
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Large unused assets (adjust if you have local testing assets)
+assets/local-test-images/
+assets/videos/

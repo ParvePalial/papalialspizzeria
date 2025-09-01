@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Papaliala's Pizzeria",
+    "slug": "papaliala-pizzeria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses location to track pizza delivery."
+      },
+      "bundleIdentifier": "com.anonymous.papalialapizzeria"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "com.anonymous.papalialapizzeria"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "papalialaspizzeria",
+    "extra": {
+      "eas": {
+        "projectId": "4bdeff44-b0f8-491b-b252-a5c8f0e9a62a"
+      }
+    }
+  }
+}
