@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🍕 Papalial's Pizzeria  
 
-## Get started
+A React Native mobile app for browsing, ordering, and navigating to **Papalial's Pizzeria**.  
+Built with **Expo + React Native**, featuring maps, user profiles, and discounts.  
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features  
 
-2. Start the app
+- 📍 **Map Navigation** – Find the nearest Papalial's Pizzeria.  
+- 👤 **User Profiles** – Manage your account and saved preferences.  
+- 🍕 **Pizza Menu** – Browse pizzas with images, descriptions, and prices.  
+- 💰 **Discounts & Offers** – Get exclusive deals directly in the app.  
+- 🛒 **Cart & Orders** – Add pizzas to cart, place and track orders.  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📸 Screenshots  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+*(Add some screenshots or mockups of your app here)*  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack  
 
-When you're ready, run:
+- [React Native](https://reactnative.dev/) – Core framework  
+- [Expo](https://expo.dev/) – Development/build tools  
+- [React Navigation](https://reactnavigation.org/) – App navigation  
+- [React Native Maps](https://github.com/react-native-maps/react-native-maps) – Location & maps  
+- [AsyncStorage / SecureStore] – Store user profile & settings  
+- [Context API / Redux] – State management  
+
+---
+
+## 📦 Installation  
+
+Clone the repo and install dependencies:  
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/papalials-pizzeria.git
+cd papalials-pizzeria
+npm install   # or yarn install
